@@ -1,0 +1,38 @@
+.corpo_principal_titulo_itens_compras{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.corpo_principal_titulo_itens_edicao{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.texto_tempo{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 11px; 
+    color: black;
+}
+
+.texto_item{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+    color: black;
+    width: -40px;
+    
+    
+}
+
+.corpo_principal_titulo_itens_compras_nome_item{
+    
+    display: flex;
+    gap: 5px;
+}
