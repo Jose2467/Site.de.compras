@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?fa@mily=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("elementos_lista.css");
+
+:root{
+
+    --cor-fundo: linear-gradient(97.54deg, #131730 35.49%, #C2373F 165.37%);
+    --fonte-principal: "Poppins";
+    
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cor-fundo);
+    
+}
+
+.corpo_principal{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: #F9F9F9;
+    padding: 56px;
+    width: 250px ;
+    gap: 20px;
+
+}
+
+.corpo_principal_adicionar_itens{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130%;
+    gap: 20px;
+
+}
+
+.corpo_principal_secao1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+
+}
+
+.titulo{
+
+    color: transparent;
+
+}
+
+.corpo_principal_adicionar_itens_Barra_pesquisa{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 24px;
+        width: 100%;
+        height: 30px;
+        background: white;
+        
+}
+
+.corpo_principal_adicionar_itens_Barra_pesquisa::placeholder{
+    
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    
+}
+
+.corpo_principal_adicionar_itens_botao{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;;
+    font-weight: 700;
+    border-style: none;
+    text-align: center;
+    border-radius: 24px;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: var(--branco);
+    background-color: #F55B64;;
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    width: 140px;
+    
+}
+
+.roda_pe{
+    
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+
+.corpo_principal_titulo{
+    
+    color: #F55B64;
+    
+}
+
+hr{
+    
+    border: none; /* Remove a borda padrão */
+    border-top: 2px dotted #F55B64; /* Adiciona a borda pontilhada na parte superior */
+    width: 100%; /* Largura da linha */
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+    
+}
+
+.corpo_principal_titulo_texto{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+    font-weight: 700;
+    
+}
+
+@media (min-width: 320px){
+    
+    
+    .corpo_principal{
+        
+        width: 200px ;
+        
+        
+    }
+}
+
+
+
